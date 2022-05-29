@@ -1,3 +1,9 @@
+if _G.Reantheajfdfjdgs then
+    return
+end
+
+_G.Reantheajfdfjdgs = ":suifayhgvsdghfsfkajewfrhk321rk213kjrgkhj432rj34f67df"
+
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 
