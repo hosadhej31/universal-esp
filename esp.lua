@@ -26,7 +26,7 @@ end
 while task.wait() do
     for i, v in pairs(players:GetPlayers()) do
         if v ~= plr then
-            esp(v, _G.UseTeamColor and v.TeamColor or ((plr.TeamColor == v.TeamColor) and _G.FriendColor or _G.EnemyColor))
+            esp(v, _G.UseTeamColor and v.TeamColor.Color or ((plr.TeamColor == v.TeamColor) and _G.FriendColor or _G.EnemyColor))
         end
     end
 end
